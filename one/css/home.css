@@ -1,0 +1,158 @@
+body,html{
+	width: 390px;
+	height: 427px;
+	font:14px "微软雅黑",Arial;
+	color:#999999;	
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+ul{
+	padding: 0;
+}
+i{
+	font-style:normal;	
+}
+li{
+	list-style:none;	
+}
+a{
+	text-decoration:none;
+	color:#737373;	
+}
+img{
+	border:0;	
+	border-style: none;
+}
+.header{
+	width: 390px;
+	height: 45px;
+	background: #f7faf9;
+	margin: auto;
+}
+.header-left{
+	float: left;
+	margin-top: 12px;
+	width: 92px;
+	height: 20px;
+	color: #69a88f;
+}
+.header-left i{
+	display: block;
+	width: 5px;
+	height: 20px;
+	background-color: #69a88f;
+	margin-right: 15px;
+	float: left;
+}
+.header-left span{
+	margin-top: 1px;
+}
+.header-right{
+	height: 15px;
+	width: 47px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.header-right span{
+	margin-top: 2px;
+	margin-right: 3px;
+}
+.header-right i{
+
+}
+.neirong{
+	position: relative;
+	width: 350px;
+	height: 382px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main{
+	width: 1750px !important;
+	height: 382px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.main>li{
+	height: 382px;
+	float: left;
+}
+.contraner{
+	width: 350px;
+	margin: 0 auto;
+}
+.left-btn{
+	position: absolute;
+	top: 205px;
+	left: 0px;
+	display: block;
+	width:24px;
+	height:60px;
+	background: #000;
+}
+.right-btn{
+	position: absolute;
+	top: 205px;
+	right: 0;
+	display: block;
+	width:24px;
+	height:60px;
+	background: #000;
+}
+.banner{
+	width: 350px;
+	height: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.banner img{
+	width: 350px;
+	height: 150px;
+}
+.main p{
+	margin-bottom: 10px;
+	margin-left:  70px;
+	font-size: 17px;
+	color: #000000;
+}
+.shop{
+	width: 350px;
+	height: 115px;
+	display: flex;
+}
+.shop li{
+	width: 350px;
+	height: 115px;
+	display: flex;
+}
+.shop li a{
+	display: block;
+}
+.shop li a img{
+	width: 115px;
+	height: 115px;
+}
+.shop-list{
+	margin: 0 auto;
+	width: 56px;
+	height: 6px;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 7px;
+	left: 150px;
+}
+.shop-list li{
+	display: flex;
+	justify-content: space-between;
+	width: 12px;
+	height: 6px;
+	border-radius: 1px;
+	background: #d8d8d8;
+}
+.active{
+	background: #69a88f;
+}
